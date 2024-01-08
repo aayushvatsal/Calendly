@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.navbar-section{
+.navbar-section {
     width: 100% !important;
     /* height: 90px !important; */
     background-color: #393033 !important;
@@ -14,12 +14,12 @@
     
 } */
 
-.calendly-logo{
+.calendly-logo {
     height: 40px;
     width: 50px;
 }
 
-.nav-link{
+.nav-link {
     display: flex;
     justify-content: center;
     color: white;
@@ -28,32 +28,32 @@
 }
 
 
-.navbar-nav{
+.navbar-nav {
     margin: auto;
     display: flex !important;
     flex-direction: row !important;
     justify-content: center !important;
-   align-items: center !important;
+    align-items: center !important;
     text-align: center !important;
     gap: 10px;
 }
 
-.profile-pic{
+.profile-pic {
     height: 50px;
     width: 50px;
 }
 
-.availability{
+.availability {
     height: 120px;
     width: 400px;
     border: 1px solid transparent;
     color: white;
     background-color: #3c4858;
     margin-top: 30px !important;
-    
+
 }
 
-.schedule-text{
+.schedule-text {
     /* height: 155px;
     width: 325px;
     border: 1px solid transparent;
@@ -64,54 +64,338 @@
     font-size: 20px;
 }
 
-.apps{
+.apps {
     font-size: 18px;
     font-weight: 500;
     text-align: center;
 }
 
-.apple-logo{
+.apple-logo {
     height: 60px;
     width: 70px;
     margin-top: 20px;
 }
 
-.mobile-app-text{
+.mobile-app-text {
     font-size: 13px;
     font-weight: 400;
     color: #393033;
     margin-top: -50px;
 }
 
-.iphone-app{
+.iphone-app {
     font-size: 30px;
     font-weight: 700;
     color: #393033;
 }
 
-.iphone-text{
+.iphone-text {
     font-size: 13px;
     font-weight: 400;
     color: #393033;
 }
-.app-store-img{
+
+.app-store-img {
     display: flex;
     justify-content: center;
     align-items: center;
 }
-.app-store{
+
+.app-store {
     height: 45px;
     width: 130px;
 
     margin-top: 30px;
 }
-.chrome-web-store{
+
+.chrome-web-store {
     font-size: 18px;
-    color:#0c9ffe ;
+    color: #0c9ffe;
 }
 
-.chrome-logo{
+.chrome-logo {
     height: 60px;
     width: 112px;
     margin-top: 20px;
+}
+
+.chrome-pic {
+    height: 60px;
+    width: 112px;
+    margin-left: -35px;
+    margin-top: 20px;
+}
+
+.outlook-logo {
+    height: 55px;
+    width: 80px;
+    margin-top: 25px;
+}
+
+.firefox-logo {
+    height: 40px;
+    width: 44px;
+    margin-top: 20px;
+
+}
+
+.Calendly-logo {
+    height: 40px;
+    width: 44px;
+    margin-top: 30px;
+    margin-left: 50px;
+
+}
+
+@media all and (max-width:325px) {
+
+
+    .navbar-nav {
+        margin: auto;
+        display: flex !important;
+        flex-direction: column !important;
+        float: left;
+    }
+
+    .apple-logo {
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+
+    .chrome-logo {
+        margin-left: -70px;
+    }
+
+    .chrome-pic {
+        height: 60px;
+        width: 112px;
+        margin-top: 20px;
+        margin-left: 10px;
+    }
+
+    .outlook-logo {
+        height: 55px;
+        width: 80px;
+        margin-top: 27px;
+        margin-left: -60px;
+    }
+
+    .firefox-logo {
+        height: 40px;
+        width: 44px;
+        margin-top: 30px;
+        margin-left: -25px;
+    }
+
+    .Calendly-logo {
+        height: 40px;
+        width: 44px;
+        margin-left: -50px;
+    }
+}
+
+@media all and (max-width:550px) and (min-width:326px) {
+
+    .navbar-nav {
+        margin: auto;
+        display: flex !important;
+        flex-direction: column !important;
+        float: left;
+    }
+
+    .apple-logo {
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+
+    .chrome-logo {
+        margin-left: -70px;
+    }
+
+    .chrome-pic {
+        height: 60px;
+        width: 112px;
+        margin-top: 20px;
+        margin-left: 20px;
+    }
+
+    .outlook-logo {
+        height: 55px;
+        width: 80px;
+        margin-top: 27px;
+        margin-left: -20px;
+    }
+
+    .firefox-logo {
+        height: 40px;
+        width: 44px;
+        margin-top: 30px;
+    }
+
+    .Calendly-logo {
+        height: 40px;
+        width: 44px;
+        margin-left: -10px;
+    }
+
+    /* .iphone-app {
+        font-size: 22px;
+    } */
+}
+
+@media all and (max-width:750px) and (min-width:551px) {
+
+    .navbar-nav {
+        margin: auto;
+        display: flex !important;
+        flex-direction: column !important;
+        float: left;
+    }
+
+    .apple-logo {
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+
+    .chrome-logo {
+        margin-left: -70px;
+    }
+
+    .chrome-pic {
+        height: 60px;
+        width: 112px;
+        margin-top: -10px;
+    }
+
+    .outlook-logo {
+        height: 55px;
+        width: 80px;
+        margin-top: -10px;
+        margin-left: -40px;
+    }
+
+    .firefox-logo {
+        height: 40px;
+        width: 44px;
+        margin-left: -40px;
+    }
+
+    .Calendly-logo {
+        height: 40px;
+        width: 44px;
+        margin-left: -10px;
+    }
+}
+
+@media all and (max-width:950px) and (min-width:751px) {
+
+    .navbar-nav {
+        margin-top: -75px;
+    }
+
+    .apple-logo {
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+
+    .chrome-logo {
+        margin-left: -70px;
+    }
+
+    .chrome-pic {
+        height: 60px;
+        width: 112px;
+        margin-top: -10px;
+    }
+
+    .outlook-logo {
+        height: 55px;
+        width: 80px;
+        margin-top: -10px;
+        margin-left: -40px;
+    }
+
+    .firefox-logo {
+        height: 40px;
+        width: 44px;
+        margin-left: -40px;
+    }
+
+    .Calendly-logo {
+        height: 40px;
+        width: 44px;
+        margin-left: -10px;
+    }
+
+}
+
+@media all and (max-width:1200px) and (min-width:951px) {
+    .navbar-nav {
+        margin-top: -75px;
+    }
+
+    .apple-logo {
+        margin-left: -30px;
+        margin-top: 20px;
+    }
+
+    .chrome-logo {
+        margin-left: -70px;
+    }
+
+    .chrome-pic {
+        height: 60px;
+        width: 112px;
+        margin-left: 30px;
+    }
+
+    .outlook-logo {
+        height: 55px;
+        width: 80px;
+        margin-top: -10px;
+        margin-left: 10px;
+    }
+
+    .firefox-logo {
+        height: 40px;
+        width: 44px;
+
+    }
+
+    .Calendly-logo {
+        height: 40px;
+        width: 44px;
+
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 951px) {
+    .firefox-logo {
+        height: 40px;
+        width: 60px;
+        margin-left: 20px;
+        margin-top: 30px;
+    }
+
+    .chrome-pic {
+        height: 60px;
+        width: 112px;
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    .outlook-logo {
+        height: 55px;
+        width: 80px;
+        margin-top: 30px;
+        margin-left: -10px;
+    }
+
+    .Calendly-logo {
+        height: 40px;
+        width: 44px;
+        margin-top: 30px;
+        margin-left: 60px;
+    }
+
 }

@@ -629,3 +629,494 @@ ul li{
     margin-top: 10px;
 }
 
+/* ************** MEDIA QUERRY *********************** */
+
+
+@media all and (max-width:325px) {
+
+
+    .navbar-nav {
+        margin: auto;
+        display: flex !important;
+        flex-direction: column !important;
+        float: left;
+    }
+
+    .user-items-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meeting-15-min{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .time-taken {
+        padding-left: 5px;
+    }
+
+
+    .btn-my-calendly {
+        margin-top: 23px;
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .dropdown-list {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        border: none;
+    }
+
+
+    .create-button {
+        margin-top: 150px;
+    }
+
+    .event-type-button {
+        margin-top: 25px;
+
+    }
+
+
+    .schedule-box {
+        width: 250px;
+    }
+
+    .btn-back {
+        margin-top: 10px;
+        /* margin-left: -80px; */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .back-button {
+        height: 40px;
+        width: 100px;
+    }
+
+    .new-event-text {
+        width: 60px;
+        height: auto;
+        padding-left: 20px;
+
+
+    }
+
+    .event-type-text {
+        font-size: 18px;
+        margin-top: -80px;
+    }
+
+
+    .off-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .new-event-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+
+
+
+    .invitee-lang-text {
+        margin-top: 50px;
+
+    }
+
+    .form-section {
+        width: 300px;
+        margin-top: 50px;
+    }
+
+
+
+    .event-name-input-box {
+        width: 200px;
+
+    }
+
+    .location-input-box {
+        width: 200px;
+    }
+
+
+
+    .Description-input-box {
+        width: 180px;
+        height: 120px;
+    }
+
+    .event-link-input-box {
+        width: 200px;
+
+    }
+
+    .next-button-last {
+        width: 200px;
+
+    }
+
+
+}
+
+/* (max-width:550px) and (min-width:326px) */
+
+@media all and (max-width:550px) and (min-width:326px) {
+    .navbar-nav {
+        margin: auto;
+        display: flex !important;
+        flex-direction: column !important;
+        float: left;
+    }
+
+
+    .btn-my-calendly {
+        margin-top: 23px;
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .user-items-list{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .meeting-15-min{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .time-taken {
+        padding-left: 5px;
+    }
+
+    .dropdown-list {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        border: none;
+    }
+
+
+    .create-button {
+        margin-top: 150px;
+    }
+
+    .event-type-button {
+        margin-top: 25px;
+
+    }
+
+
+    .schedule-box {
+        width: 250px;
+    }
+
+    .btn-back {
+        margin-top: 10px;
+        /* margin-left: -80px; */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .back-button {
+        height: 40px;
+        width: 100px;
+    }
+
+    .new-event-text {
+        width: 60px;
+        height: auto;
+        padding-left: 20px;
+
+
+    }
+
+    .event-type-text {
+        font-size: 18px;
+        margin-top: -105px;
+    }
+
+
+    .off-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .new-event-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+
+
+
+    .invitee-lang-text {
+        margin-top: 50px;
+
+    }
+
+    .form-section {
+        width: 450px;
+        height: auto;
+        margin-top: 50px;
+    }
+
+
+
+    .event-name-input-box {
+        width: 300px;
+
+    }
+
+    .location-input-box {
+        width: 300px;
+    }
+
+
+
+    .Description-input-box {
+        width: 320px;
+        height: 180px;
+    }
+
+    .event-link-input-box {
+        width: 200px;
+
+    }
+
+    .next-button-last {
+        width: 200px;
+
+    }
+
+}
+
+@media all and (max-width:750px) and (min-width:551px) {
+    .navbar-nav {
+        margin: auto;
+        display: flex !important;
+        flex-direction: column !important;
+        float: left;
+    }
+
+    .btn-my-calendly {
+        margin-top: 23px;
+        font-size: large;
+        font-weight: 600;
+    }
+
+    
+
+    .dropdown-list {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        border: none;
+    }
+
+
+    .create-button {
+        margin-top: 150px;
+    }
+
+    .event-type-button {
+        margin-top: 25px;
+
+    }
+
+
+    .schedule-box {
+        width: 250px;
+    }
+
+    .btn-back {
+        margin-top: 10px;
+        /* margin-left: -80px; */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .back-button {
+        height: 40px;
+        width: 100px;
+    }
+
+    .new-event-text {
+        width: 254px;
+        height: auto;
+        padding-left: 42px;
+
+
+    }
+
+    .off-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .new-event-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .invitee-lang-text {
+        margin-top: 50px;
+
+    }
+
+    .form-section {
+        width: 520px;
+        height: auto;
+        margin-top: 50px;
+    }
+
+
+
+    .event-name-input-box {
+        width: 400px;
+
+    }
+
+    .location-input-box {
+        width: 400px;
+    }
+
+
+
+    .Description-input-box {
+        width: 420px;
+        height: 280px;
+    }
+
+    .event-link-input-box {
+        width: 300px;
+
+    }
+
+    .next-button-last {
+        width: 300px;
+
+    }
+}
+
+@media all and (max-width:950px) and (min-width:751px) {
+
+    .navbar-nav{
+        margin-top: -75px;
+    }
+
+    
+    .dropdown-list {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        border: none;
+    }
+
+
+    .create-button {
+        margin-top: 150px;
+    }
+
+    .event-type-button {
+        margin-top: 25px;
+
+    }
+
+
+    .schedule-box {
+        width: 250px;
+    }
+
+    .btn-back {
+        margin-top: 10px;
+        /* margin-left: -80px; */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .back-button {
+        height: 40px;
+        width: 100px;
+    }
+
+    .new-event-text {
+        width: 254px;
+        height: auto;
+        padding-left: 42px;
+
+
+    }
+
+    
+
+    .new-event-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .invitee-lang-text {
+        margin-top: 50px;
+
+    }
+
+    .form-section {
+        width: 700px;
+        height: auto;
+        margin-top: 50px;
+    }
+
+
+
+    .event-name-input-box {
+        width: 550px;
+
+    }
+
+    .location-input-box {
+        width:  550px;
+    }
+
+
+
+    .Description-input-box {
+        width: 520px;
+        height: 380px;
+    }
+
+    .event-link-input-box {
+        width:  550px;
+
+    }
+
+    .next-button-last {
+        width:  550px;
+
+    }
+
+}
+
+
+@media all and (max-width:1200px) and (min-width:951px) {
+    .navbar-nav{
+        margin-top: -75px;
+    }
+
+    .form-section {
+        width: 800px;
+        height: auto;
+        margin-top: 50px;
+    }
+}
+
+
+

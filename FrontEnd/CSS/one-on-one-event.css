@@ -1,10 +1,10 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.navbar-section{
+.navbar-section {
     width: 100% !important;
     /* height: 90px !important; */
     background-color: #393033 !important;
@@ -14,12 +14,12 @@
     
 } */
 
-.calendly-logo{
+.calendly-logo {
     height: 40px;
     width: 50px;
 }
 
-.nav-link{
+.nav-link {
     display: flex;
     justify-content: center;
     color: white;
@@ -28,32 +28,32 @@
 }
 
 
-.navbar-nav{
+.navbar-nav {
     margin: auto;
     display: flex !important;
     flex-direction: row !important;
     justify-content: center !important;
-   align-items: center !important;
+    align-items: center !important;
     text-align: center !important;
     gap: 10px;
 }
 
-.profile-pic{
+.profile-pic {
     height: 50px;
     width: 50px;
 }
 
-.availability{
+.availability {
     height: 120px;
     width: 400px;
     border: 1px solid transparent;
     color: white;
     background-color: #3c4858;
     margin-top: 30px !important;
-    
+
 }
 
-.schedule-text{
+.schedule-text {
     /* height: 155px;
     width: 325px;
     border: 1px solid transparent;
@@ -65,20 +65,20 @@
 }
 
 
-.btn-back-text{
+.btn-back-text {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.btn-back{
+.btn-back {
     margin-top: 10px;
     /* margin-left: -80px; */
     display: flex;
     justify-content: space-around;
 }
 
-.back-button{ 
+.back-button {
     color: #0c9ffe;
     height: 30px;
     width: 80px;
@@ -86,16 +86,16 @@
     font-size: 18px;
     cursor: pointer;
     font-weight: 500;
-    border: solid 3px #0c9ffe; 
-    
+    border: solid 3px #0c9ffe;
+
     /* border-radius: 5px;  */
 }
 
-.new-event-text{
+.new-event-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+
     font-size: 18px;
     font-weight: 400;
 }
@@ -107,17 +107,17 @@
     gap: 20px;
 } */
 
-.off-text{
+.off-text {
     font-size: 18px;
     font-weight: 500;
 }
 
-.new-event-text{
+.new-event-text {
     font-size: 18px;
     font-weight: 500;
 }
 
-.btn-1{
+.btn-1 {
     display: flex;
     display: flex;
     justify-content: center;
@@ -126,7 +126,7 @@
     gap: 20px;
 }
 
-.off{
+.off {
     height: 10px;
     width: 20px;
     border: 10px solid transparent;
@@ -136,23 +136,23 @@
     /* margin-left: 10px; */
 }
 
-.btn-1{
+.btn-1 {
     display: flex;
     justify-content: center;
 }
 
-.btn-2{
+.btn-2 {
     display: flex;
     gap: 20px;
 }
 
-.off-btn-text{
+.off-btn-text {
     padding-left: 40px;
 }
 
 
 
-.off-button{
+.off-button {
     color: rgba(89, 85, 85, 0.676);
     height: 40px;
     width: 90px;
@@ -160,25 +160,26 @@
     font-size: 18px;
     cursor: pointer;
     font-weight: 500;
-    border: solid 3px #2a262638; 
+    border: solid 3px #2a262638;
     background-color: #302e2e45;
-    
-    /* border-radius: 5px;  */ 
+
+    /* border-radius: 5px;  */
 }
 
-.button{
+.button {
     display: flex;
     gap: 20px;
 }
 
-.event-type-text{
+.event-type-text {
     font-size: 18px;
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
 }
-.btn-2{
+
+.btn-2 {
     display: flex;
     height: 40px;
     width: 100px;
@@ -186,7 +187,7 @@
     border: 1px solid rgba(33, 28, 28, 0.605);
 }
 
-.small-circle{
+.small-circle {
     height: 20px;
     width: 22px;
     background-color: white;
@@ -195,7 +196,8 @@
     margin-left: 12px;
     margin-top: 9px;
 }
-.off-btn-text{
+
+.off-btn-text {
     font-size: 18px;
     font-weight: 500;
     color: white;
@@ -207,7 +209,7 @@
 
 }
 
-.invitee-lang-text{
+.invitee-lang-text {
     display: flex;
     font-size: 18px;
     font-weight: 500;
@@ -215,27 +217,27 @@
     padding-left: 20px;
 }
 
-.btn-english-text{
+.btn-english-text {
     color: #0c9ffe !important;
     margin-top: -5px;
 }
 
-.invitee-lang{
+.invitee-lang {
     color: #0c9ffe !important;
 }
 
-.form-section{
+.form-section {
     height: 900px;
     width: 1150px;
     border: 2px solid black;
 }
 
- .btn-3{
+.btn-3 {
     display: flex;
-    
-} 
 
-.circle{
+}
+
+.circle {
     display: flex;
     height: 15px;
     width: 15px;
@@ -243,7 +245,8 @@
     border: 1px solid black;
     border-radius: 14px;
 }
-.what-event-btn-text{
+
+.what-event-btn-text {
     font-size: 18px;
     font-weight: 500;
     color: black;
@@ -257,18 +260,18 @@
 
 }
 
-.text-btn{
+.text-btn {
     display: flex;
-   justify-content: flex-end;
+    justify-content: flex-end;
     gap: 10px;
 }
 
-.cancel-text{
+.cancel-text {
     font-size: 18px;
     font-weight: 500;
 }
 
-.next-text{
+.next-text {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -277,7 +280,7 @@
     font-weight: 400;
 }
 
-.next-button{
+.next-button {
     color: white;
     height: 30px;
     width: 60px;
@@ -286,9 +289,9 @@
     cursor: pointer;
     font-weight: 500;
     background-color: #0c9ffe;
-    border: solid 3px #0c9ffe; 
-    
-    border-radius: 5px; 
+    border: solid 3px #0c9ffe;
+
+    border-radius: 5px;
 }
 
 
@@ -314,7 +317,7 @@
     padding-left: 30px;
 }
 
-.event-name{
+.event-name {
     margin-top: -25px;
     padding-left: 30px;
 }
@@ -345,7 +348,7 @@
     padding-left: 30px;
 }
 
-.location{
+.location {
     margin-top: -25px;
     padding-left: 30px;
 }
@@ -376,7 +379,7 @@
     padding-left: 30px;
 }
 
-.Description{
+.Description {
     margin-top: -25px;
     padding-left: 30px;
 }
@@ -406,7 +409,7 @@
     padding-left: 30px;
 }
 
-.event-link{
+.event-link {
     margin-top: -25px;
     padding-left: 30px;
 }
@@ -418,12 +421,12 @@
     font-weight: 500;
 }
 
-.event-meeting-link{
+.event-meeting-link {
     margin-top: -30px;
     padding-left: 30px;
 }
 
-.calendly-type{
+.calendly-type {
     display: flex;
     justify-content: space-around !important;
     align-items: center;
@@ -432,12 +435,12 @@
     margin-top: 70px;
 }
 
-.symbol{
+.symbol {
     font-size: 18px;
     font-weight: 700;
 }
 
-.one-off-meeting{
+.one-off-meeting {
     font-size: 22px;
     font-weight: 700;
     display: flex;
@@ -447,7 +450,7 @@
     margin-top: 30px;
 }
 
-.calendly-type-border{
+.calendly-type-border {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -456,7 +459,7 @@
 
 }
 
-.description-details{
+.description-details {
     font-size: 18px;
     margin-top: 10px;
     color: rgba(67, 65, 65, 0.632);
@@ -468,7 +471,7 @@
 }
 
 
-.next-text-last{
+.next-text-last {
     display: flex;
     justify-content: center;
     text-align: center;
@@ -477,7 +480,7 @@
     font-weight: 400;
 }
 
-.next-button-last{
+.next-button-last {
     color: white;
     height: 30px;
     width: 644px;
@@ -488,11 +491,11 @@
     border: solid 3px #0c9ffe;
     margin-top: 15px;
     margin-left: 75px;
-    
+
 }
 
 
-.next{
+.next {
     background-color: #0c9ffe;
     width: fit-content;
     color: white;
@@ -501,9 +504,9 @@
     font-size: 18px;
     cursor: pointer;
     font-weight: 500;
-    border: solid 3px transparent;  
-    
-    
+    border: solid 3px transparent;
+
+
 }
 
 
@@ -557,225 +560,422 @@
         width: 250px;
     }
 
-    .btn-back{
+    .btn-back {
         margin-top: 10px;
         /* margin-left: -80px; */
         display: flex;
         justify-content: space-around;
     }
-    
-    .back-button{ 
+
+    .back-button {
         height: 40px;
         width: 100px;
     }
-    
-    .new-event-text{
+
+    .new-event-text {
         width: 60px;
-        height: 64px;
+        height: auto;
         padding-left: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
+
+
     }
-    
-    /* .off-btn{
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        gap: 20px;
-    } */
-    
-    .off-text{
+
+    .event-type-text {
+        font-size: 18px;
+        margin-top: -80px;
+    }
+
+
+    .off-text {
         font-size: 18px;
         font-weight: 500;
     }
-    
-    .new-event-text{
+
+    .new-event-text {
         font-size: 18px;
         font-weight: 500;
     }
-    
-    .btn-1{
-        display: flex;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: right;
-        gap: 20px;
+
+
+
+
+
+    .invitee-lang-text {
+        margin-top: 50px;
+
     }
-    
-    .off{
-        height: 10px;
-        width: 20px;
-        border: 10px solid transparent;
-        border-radius: 12px;
-        background-color: white;
-        margin-top: -7px;
-        /* margin-left: 10px; */
-    }
-    
-    .btn-1{
-        display: flex;
-        justify-content: center;
-    }
-    
-    .btn-2{
-        display: flex;
-        gap: 20px;
-    }
-    
-    .off-btn-text{
-        padding-left: 40px;
-    }
-    
-    
-    
-    .off-button{
-        color: rgba(89, 85, 85, 0.676);
-        height: 40px;
-        width: 90px;
-        /* box-shadow: 5px 5px 7px 0px #0c9ffe;  */
-        font-size: 18px;
-        cursor: pointer;
-        font-weight: 500;
-        border: solid 3px #2a262638; 
-        background-color: #302e2e45;
-        
-        /* border-radius: 5px;  */ 
-    }
-    
-    .button{
-        display: flex;
-        gap: 20px;
-    }
-    
-    .event-type-text{
-        font-size: 18px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    .btn-2{
-        display: flex;
-        height: 40px;
-        width: 100px;
-        background-color: #464243c2;
-        border: 1px solid rgba(33, 28, 28, 0.605);
-    }
-    
-    .small-circle{
-        height: 20px;
-        width: 22px;
-        background-color: white;
-        border: 1px solid black;
-        border-radius: 14px;
-        margin-left: 12px;
-        margin-top: 9px;
-    }
-    .off-btn-text{
-        font-size: 18px;
-        font-weight: 500;
-        color: white;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        margin-left: -40px;
-    
-    }
-    
-    .invitee-lang-text{  
-        margin-top: 90px;
-        
-    }
-    
-    .btn-english-text{
-        color: #0c9ffe !important;
-        margin-top: -5px;
-    }
-    
-    .invitee-lang{
-        color: #0c9ffe !important;
-    }
-    
-    .form-section{
+
+    .form-section {
         width: 300px;
-        margin-top: 100px;
+        margin-top: 50px;
     }
-    
-     /* .btn-3{
-        display: flex;
-        
-    }  */
-    
-    .circle{
-        display: flex;
-        height: 15px;
-        width: 15px;
-        background-color: blue;
-        border: 1px solid black;
-        border-radius: 14px;
-    }
-    .what-event-btn-text{
-        font-size: 18px;
-        font-weight: 500;
-        color: black;
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        padding-left: 20px;
-        margin-top: -5px;
-        /* margin-left: -40px; */
-    
-    }
-    
-    .text-btn{
-        display: flex;
-       justify-content: flex-end;
-        gap: 10px;
-    }
-    
-    .cancel-text{
-        font-size: 18px;
-        font-weight: 500;
-    }
-    
-    .next-text{
-        display: flex;
-        justify-content: center;
-        text-align: center;
-        align-items: center;
-        font-size: 18px;
-        font-weight: 400;
-    }
-    
+
+
+
     .event-name-input-box {
         width: 200px;
-    
-    }
-       
-     .location-input-box {
-        width: 200px;
-    } 
-    
 
-    
-     .Description-input-box {
+    }
+
+    .location-input-box {
+        width: 200px;
+    }
+
+
+
+    .Description-input-box {
         width: 180px;
         height: 120px;
-    } 
-    
-     .event-link-input-box {
-         width: 200px;
-    
-    } 
-    
-    .next-button-last{
-        width: 200px;
-        
     }
-    
 
+    .event-link-input-box {
+        width: 200px;
+
+    }
+
+    .next-button-last {
+        width: 200px;
+
+    }
+
+
+}
+
+/* (max-width:550px) and (min-width:326px) */
+
+@media all and (max-width:550px) and (min-width:326px) {
+    .navbar-nav {
+        margin: auto;
+        display: flex !important;
+        flex-direction: column !important;
+        float: left;
+    }
+
+
+    .btn-my-calendly {
+        margin-top: 23px;
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .dropdown-list {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        border: none;
+    }
+
+
+    .create-button {
+        margin-top: 150px;
+    }
+
+    .event-type-button {
+        margin-top: 25px;
+
+    }
+
+
+    .schedule-box {
+        width: 250px;
+    }
+
+    .btn-back {
+        margin-top: 10px;
+        /* margin-left: -80px; */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .back-button {
+        height: 40px;
+        width: 100px;
+    }
+
+    .new-event-text {
+        width: 60px;
+        height: auto;
+        padding-left: 20px;
+
+
+    }
+
+    .event-type-text {
+        font-size: 18px;
+        margin-top: -105px;
+    }
+
+
+    .off-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .new-event-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+
+
+
+
+    .invitee-lang-text {
+        margin-top: 50px;
+
+    }
+
+    .form-section {
+        width: 450px;
+        height: auto;
+        margin-top: 50px;
+    }
+
+
+
+    .event-name-input-box {
+        width: 300px;
+
+    }
+
+    .location-input-box {
+        width: 300px;
+    }
+
+
+
+    .Description-input-box {
+        width: 320px;
+        height: 180px;
+    }
+
+    .event-link-input-box {
+        width: 200px;
+
+    }
+
+    .next-button-last {
+        width: 200px;
+
+    }
+
+}
+
+@media all and (max-width:750px) and (min-width:551px) {
+    .navbar-nav {
+        margin: auto;
+        display: flex !important;
+        flex-direction: column !important;
+        float: left;
+    }
+
+    .btn-my-calendly {
+        margin-top: 23px;
+        font-size: large;
+        font-weight: 600;
+    }
+
+    .dropdown-list {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        border: none;
+    }
+
+
+    .create-button {
+        margin-top: 150px;
+    }
+
+    .event-type-button {
+        margin-top: 25px;
+
+    }
+
+
+    .schedule-box {
+        width: 250px;
+    }
+
+    .btn-back {
+        margin-top: 10px;
+        /* margin-left: -80px; */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .back-button {
+        height: 40px;
+        width: 100px;
+    }
+
+    .new-event-text {
+        width: 254px;
+        height: auto;
+        padding-left: 42px;
+
+
+    }
+
+    .off-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .new-event-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .invitee-lang-text {
+        margin-top: 50px;
+
+    }
+
+    .form-section {
+        width: 520px;
+        height: auto;
+        margin-top: 50px;
+    }
+
+
+
+    .event-name-input-box {
+        width: 400px;
+
+    }
+
+    .location-input-box {
+        width: 400px;
+    }
+
+
+
+    .Description-input-box {
+        width: 420px;
+        height: 280px;
+    }
+
+    .event-link-input-box {
+        width: 300px;
+
+    }
+
+    .next-button-last {
+        width: 300px;
+
+    }
+}
+
+@media all and (max-width:950px) and (min-width:751px) {
+
+    .navbar-nav{
+        margin-top: -75px;
+    }
+
+    
+    .dropdown-list {
+        display: flex;
+        flex-direction: column;
+        font-size: 20px;
+        border: none;
+    }
+
+
+    .create-button {
+        margin-top: 150px;
+    }
+
+    .event-type-button {
+        margin-top: 25px;
+
+    }
+
+
+    .schedule-box {
+        width: 250px;
+    }
+
+    .btn-back {
+        margin-top: 10px;
+        /* margin-left: -80px; */
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .back-button {
+        height: 40px;
+        width: 100px;
+    }
+
+    .new-event-text {
+        width: 254px;
+        height: auto;
+        padding-left: 42px;
+
+
+    }
+
+    .off-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .new-event-text {
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .invitee-lang-text {
+        margin-top: 50px;
+
+    }
+
+    .form-section {
+        width: 700px;
+        height: auto;
+        margin-top: 50px;
+    }
+
+
+
+    .event-name-input-box {
+        width: 550px;
+
+    }
+
+    .location-input-box {
+        width:  550px;
+    }
+
+
+
+    .Description-input-box {
+        width: 520px;
+        height: 380px;
+    }
+
+    .event-link-input-box {
+        width:  550px;
+
+    }
+
+    .next-button-last {
+        width:  550px;
+
+    }
+
+}
+
+
+@media all and (max-width:1200px) and (min-width:951px) {
+    .navbar-nav{
+        margin-top: -75px;
+    }
+
+    .form-section {
+        width: 800px;
+        height: auto;
+        margin-top: 50px;
+    }
 }

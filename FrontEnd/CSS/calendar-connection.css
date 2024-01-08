@@ -226,3 +226,30 @@
     align-items: center;
     margin-top: 10px;
 }
+
+
+
+
+@media all and (max-width:325px) {
+
+
+    .navbar-nav {
+        margin: auto;
+        display: flex !important;
+        flex-direction: column !important;
+        float: left;
+    }
+
+    .calendar-account-box {
+        
+        height: auto;
+        width:500px;
+
+    }
+
+    .calendar-disconnect-box {
+        height: auto;
+        width: 550px;
+    }
+
+}
